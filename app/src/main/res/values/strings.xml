@@ -1,0 +1,83 @@
+<resources>
+    <!-- اسم التطبيق -->
+    <string name="app_name">تطبيق الجيم</string>
+    
+    <!-- العضلات الرئيسية -->
+    <string name="muscle_back">الظهر</string>
+    <string name="muscle_chest">الصدر</string>
+    <string name="muscle_legs">الأرجل</string>
+    <string name="muscle_shoulders">الأكتاف</string>
+    <string name="muscle_biceps">البايسبس</string>
+    <string name="muscle_triceps">الترايسبس</string>
+    <string name="muscle_forearms">السواعد</string>
+    
+    <!-- واجهة التطبيق -->
+    <string name="main_title">اختر العضلة</string>
+    <string name="exercises_title">التمارين</string>
+    <string name="exercise_detail_title">تفاصيل التمرين</string>
+    
+    <!-- تفاصيل التمرين -->
+    <string name="exercise_name">اسم التمرين:</string>
+    <string name="exercise_description">وصف التمرين:</string>
+    <string name="weight_label">الوزن (كجم):</string>
+    <string name="reps_label">عدد التكرارات:</string>
+    <string name="save_button">حفظ</string>
+    <string name="data_saved">تم حفظ البيانات بنجاح</string>
+    
+    <!-- تمارين الظهر -->
+    <string name="deadlift">Deadlift</string>
+    <string name="pullups">Pull-ups</string>
+    <string name="bent_over_row">Bent-over Row</string>
+    <string name="lat_pulldown">Lat Pulldown</string>
+    <string name="tbar_row">T-Bar Row</string>
+    
+    <!-- تمارين الصدر -->
+    <string name="bench_press">Bench Press</string>
+    <string name="incline_dumbbell_press">Incline Dumbbell Press</string>
+    <string name="pushups">Push-ups</string>
+    <string name="chest_fly">Chest Fly</string>
+    <string name="cable_crossover">Cable Crossover</string>
+    
+    <!-- تمارين الأرجل -->
+    <string name="squat">Squat</string>
+    <string name="leg_press">Leg Press</string>
+    <string name="lunges">Lunges</string>
+    <string name="romanian_deadlift">Romanian Deadlift</string>
+    <string name="leg_curl">Leg Curl</string>
+    
+    <!-- تمارين الأكتاف -->
+    <string name="overhead_press">Overhead Press</string>
+    <string name="lateral_raise">Lateral Raise</string>
+    <string name="front_raise">Front Raise</string>
+    <string name="arnold_press">Arnold Press</string>
+    <string name="shrugs">Shrugs</string>
+    
+    <!-- تمارين البايسبس -->
+    <string name="barbell_curl">Barbell Curl</string>
+    <string name="hammer_curl">Hammer Curl</string>
+    <string name="concentration_curl">Concentration Curl</string>
+    <string name="preacher_curl">Preacher Curl</string>
+    <string name="cable_curl">Cable Curl</string>
+    
+    <!-- تمارين الترايسبس -->
+    <string name="triceps_pushdown">Triceps Pushdown</string>
+    <string name="skull_crushers">Skull Crushers</string>
+    <string name="dips">Dips</string>
+    <string name="overhead_extension">Overhead Extension</string>
+    <string name="close_grip_bench">Close-grip Bench</string>
+    
+    <!-- تمارين السواعد -->
+    <string name="wrist_curl">Wrist Curl</string>
+    <string name="reverse_curl">Reverse Curl</string>
+    <string name="farmers_carry">Farmer\'s Carry</string>
+    <string name="zottman_curl">Zottman Curl</string>
+    <string name="plate_pinch">Plate Pinch</string>
+    
+    <!-- أوصاف التمارين -->
+    <string name="deadlift_desc">تمرين أساسي لتقوية عضلات الظهر والأرجل والجذع</string>
+    <string name="pullups_desc">تمرين ممتاز لتطوير عضلات الظهر العلوية والذراعين</string>
+    <string name="bench_press_desc">التمرين الأساسي لتطوير عضلات الصدر والأكتاف والذراعين</string>
+    <string name="squat_desc">الملك في تمارين الأرجل لتقوية عضلات الفخذ والأرداف</string>
+    <string name="general_exercise_desc">تمرين فعال لتطوير وتقوية العضلة المستهدفة</string>
+    
+</resources>
