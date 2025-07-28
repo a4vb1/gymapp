@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- اسم التمرين -->
+        <TextView
+            android:id="@+id/tv_exercise_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اسم التمرين"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/on_background" />
+
+        <!-- صورة التمرين -->
+        <ImageView
+            android:id="@+id/iv_exercise_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/placeholder_exercise"
+            android:contentDescription="صورة التمرين" />
+
+        <!-- وصف التمرين -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_description"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/on_background" />
+
+        <TextView
+            android:id="@+id/tv_exercise_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="وصف التمرين"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/on_background" />
+
+        <!-- حقل إدخال الوزن -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/on_background" />
+
+        <EditText
+            android:id="@+id/et_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="numberDecimal"
+            android:hint="أدخل الوزن"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- حقل إدخال عدد التكرارات -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reps_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/on_background" />
+
+        <EditText
+            android:id="@+id/et_repetitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:inputType="number"
+            android:hint="أدخل عدد التكرارات"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- زر الحفظ -->
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/SaveButton"
+            android:text="@string/save_button" />
+
+        <!-- زر العودة -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="العودة"
+            android:textSize="16sp"
+            android:padding="12dp"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    </LinearLayout>
+
+</ScrollView>

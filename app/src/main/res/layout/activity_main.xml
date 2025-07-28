@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <!-- عنوان التطبيق -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/on_background" />
+
+    <!-- قائمة أزرار العضلات -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- زر عضلة الظهر -->
+            <Button
+                android:id="@+id/btn_back_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_back"
+                android:drawableTop="@drawable/ic_muscle_back"
+                android:drawablePadding="8dp" />
+
+            <!-- زر عضلة الصدر -->
+            <Button
+                android:id="@+id/btn_chest_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_chest"
+                android:drawableTop="@drawable/ic_muscle_chest"
+                android:drawablePadding="8dp" />
+
+            <!-- زر عضلة الأرجل -->
+            <Button
+                android:id="@+id/btn_legs_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_legs"
+                android:drawableTop="@drawable/ic_muscle_legs"
+                android:drawablePadding="8dp" />
+
+            <!-- زر عضلة الأكتاف -->
+            <Button
+                android:id="@+id/btn_shoulders_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_shoulders"
+                android:drawableTop="@drawable/ic_muscle_shoulders"
+                android:drawablePadding="8dp" />
+
+            <!-- زر عضلة البايسبس -->
+            <Button
+                android:id="@+id/btn_biceps_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_biceps"
+                android:drawableTop="@drawable/ic_muscle_biceps"
+                android:drawablePadding="8dp" />
+
+            <!-- زر عضلة الترايسبس -->
+            <Button
+                android:id="@+id/btn_triceps_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_triceps"
+                android:drawableTop="@drawable/ic_muscle_triceps"
+                android:drawablePadding="8dp" />
+
+            <!-- زر عضلة السواعد -->
+            <Button
+                android:id="@+id/btn_forearms_muscle"
+                style="@style/MuscleButton"
+                android:text="@string/muscle_forearms"
+                android:drawableTop="@drawable/ic_muscle_forearms"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
