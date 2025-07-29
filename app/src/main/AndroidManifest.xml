@@ -11,25 +11,16 @@
         android:theme="@style/Theme.GymApp"
         tools:targetApi="31">
         
-        <!-- النشاط الرئيسي - الشاشة الأولى لعرض العضلات -->
+        <!-- النشاط الرئيسي - تطبيق Jetpack Compose -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.GymApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- نشاط عرض التمارين لكل عضلة -->
-        <activity
-            android:name=".ExerciseListActivity"
-            android:exported="false" />
-            
-        <!-- نشاط تفاصيل التمرين -->
-        <activity
-            android:name=".ExerciseDetailActivity"
-            android:exported="false" />
             
     </application>
 
